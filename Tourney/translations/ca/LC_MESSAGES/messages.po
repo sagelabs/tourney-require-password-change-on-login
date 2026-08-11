@@ -1,0 +1,859 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tourney\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-04-02 07:37-0400\n"
+"PO-Revision-Date: 2025-09-24 00:30\n"
+"Last-Translator: \n"
+"Language-Team: Catalan\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Crowdin-Project: Tourney\n"
+"X-Crowdin-Project-ID: 659064\n"
+"X-Crowdin-Language: ca\n"
+"X-Crowdin-File: /master/messages.pot\n"
+"X-Crowdin-File-ID: 188\n"
+"Language: ca_ES\n"
+
+#: Tourney/challenges.py:38
+msgid "Challenge Visibility is set to Admins Only"
+msgstr ""
+
+#: Tourney/challenges.py:41 Tourney/utils/decorators/__init__.py:39
+#, python-format
+msgid "%(ctf_name)s has not started yet"
+msgstr ""
+
+#: Tourney/challenges.py:44
+#, python-format
+msgid "%(ctf_name)s is paused"
+msgstr ""
+
+#: Tourney/challenges.py:47 Tourney/utils/decorators/__init__.py:31
+#, python-format
+msgid "%(ctf_name)s has ended"
+msgstr ""
+
+#: Tourney/forms/auth.py:21 Tourney/forms/self.py:21
+#: Tourney/themes/core-beta/templates/teams/private.html:329
+#: Tourney/themes/core-beta/templates/teams/public.html:95
+msgid "User Name"
+msgstr "Nom d'usuari"
+
+#: Tourney/forms/auth.py:23 Tourney/forms/auth.py:60 Tourney/forms/self.py:22
+#: Tourney/forms/teams.py:230
+msgid "Email"
+msgstr "Correu electrònic"
+
+#: Tourney/forms/auth.py:24 Tourney/forms/auth.py:50 Tourney/forms/auth.py:67
+#: Tourney/forms/self.py:24 Tourney/forms/teams.py:231
+msgid "Password"
+msgstr "Contrasenya"
+
+#: Tourney/forms/auth.py:25 Tourney/forms/auth.py:51 Tourney/forms/auth.py:62
+#: Tourney/forms/auth.py:69 Tourney/forms/self.py:29 Tourney/forms/teams.py:154
+#: Tourney/forms/teams.py:237 Tourney/themes/core-beta/templates/challenge.html:147
+msgid "Submit"
+msgstr "Envia"
+
+#: Tourney/forms/auth.py:46
+msgid "User Name or Email"
+msgstr "Nom d'usuari o correu electrònic"
+
+#: Tourney/forms/auth.py:55
+msgid "Resend Confirmation Email"
+msgstr "Reenvia el correu de confirmació"
+
+#: Tourney/forms/self.py:23 Tourney/forms/users.py:181
+msgid "Language"
+msgstr "Idioma"
+
+#: Tourney/forms/self.py:25
+msgid "Current Password"
+msgstr "Contrasenya actual"
+
+#: Tourney/forms/self.py:26 Tourney/forms/teams.py:140 Tourney/forms/teams.py:218
+#: Tourney/forms/teams.py:233 Tourney/forms/users.py:164
+#: Tourney/themes/core-beta/templates/teams/teams.html:51
+#: Tourney/themes/core-beta/templates/users/users.html:48
+msgid "Affiliation"
+msgstr "Afiliació"
+
+#: Tourney/forms/self.py:27 Tourney/forms/teams.py:146 Tourney/forms/teams.py:219
+#: Tourney/forms/teams.py:232 Tourney/forms/users.py:165
+#: Tourney/themes/core-beta/templates/teams/teams.html:50
+#: Tourney/themes/core-beta/templates/users/users.html:47
+msgid "Website"
+msgstr "Lloc web"
+
+#: Tourney/forms/self.py:28 Tourney/forms/teams.py:150 Tourney/forms/teams.py:234
+#: Tourney/themes/core-beta/templates/teams/teams.html:52
+#: Tourney/themes/core-beta/templates/users/users.html:49
+msgid "Country"
+msgstr "País"
+
+#: Tourney/forms/self.py:59 Tourney/themes/core-beta/templates/settings.html:225
+msgid "Expiration"
+msgstr "Venciment"
+
+#: Tourney/forms/self.py:61
+msgid "Generate"
+msgstr "Genera"
+
+#: Tourney/forms/setup.py:29
+msgid "Event Name"
+msgstr "Nom de l'esdeveniment"
+
+#: Tourney/forms/setup.py:29
+msgid "The name of your CTF event/workshop"
+msgstr "El nom del teu esdeveniment/taller CTF"
+
+#: Tourney/forms/setup.py:32
+msgid "Event Description"
+msgstr "Descripció de l'esdeveniment"
+
+#: Tourney/forms/setup.py:32
+msgid "Description for the CTF"
+msgstr "Descripció del CTF"
+
+#: Tourney/forms/setup.py:35 Tourney/forms/setup.py:36
+msgid "User Mode"
+msgstr "Mode Usuari"
+
+#: Tourney/forms/setup.py:36
+msgid "Team Mode"
+msgstr "Mode Equip"
+
+#: Tourney/forms/setup.py:39
+msgid "Controls whether users join together in teams to play (Team Mode) or play as themselves (User Mode)"
+msgstr "Controla si els usuaris es reuneixen en equips per jugar (Mode Equip) o juguen com a individus (Mode Usuari)"
+
+#: Tourney/forms/setup.py:45
+msgid "Admin Username"
+msgstr "Nom d'usuari de l'administrador"
+
+#: Tourney/forms/setup.py:46
+msgid "Your username for the administration account"
+msgstr "El teu nom d'usuari per al compte d'administració"
+
+#: Tourney/forms/setup.py:50
+msgid "Admin Email"
+msgstr "Correu electrònic de l'administrador"
+
+#: Tourney/forms/setup.py:51
+msgid "Your email address for the administration account"
+msgstr "La teva adreça de correu electrònic per al compte d'administració"
+
+#: Tourney/forms/setup.py:55
+msgid "Admin Password"
+msgstr "Contrasenya de l'administrador"
+
+#: Tourney/forms/setup.py:56
+msgid "Your password for the administration account"
+msgstr "La teva contrasenya per al compte d'administració"
+
+#: Tourney/forms/setup.py:61
+msgid "Logo"
+msgstr "Logotip"
+
+#: Tourney/forms/setup.py:63
+msgid "Logo to use for the website instead of a CTF name. Used as the home page button. Optional."
+msgstr "Logotip a utilitzar per al lloc web en lloc del nom del CTF. Utilitzat com a botó de la pàgina principal. Opcional."
+
+#: Tourney/forms/setup.py:67
+msgid "Banner"
+msgstr "Banner"
+
+#: Tourney/forms/setup.py:67
+msgid "Banner to use for the homepage. Optional."
+msgstr "Banner a utilitzar per a la pàgina d'inici. Opcional."
+
+#: Tourney/forms/setup.py:70
+msgid "Small Icon"
+msgstr "Icona Petita"
+
+#: Tourney/forms/setup.py:72
+msgid "favicon used in user's browsers. Only PNGs accepted. Must be 32x32px. Optional."
+msgstr "favicon utilitzat als navegadors dels usuaris. Només s'accepten PNGs. Ha de ser de 32x32px. Opcional."
+
+#: Tourney/forms/setup.py:76
+msgid "Theme"
+msgstr "Tema"
+
+#: Tourney/forms/setup.py:77
+msgid "Tourney Theme to use. Can be changed later."
+msgstr "Tema de Tourney a utilitzar. Es pot canviar més endavant."
+
+#: Tourney/forms/setup.py:84
+msgid "Theme Color"
+msgstr "Color del Tema"
+
+#: Tourney/forms/setup.py:86
+msgid "Color used by theme to control aesthetics. Requires theme support. Optional."
+msgstr "Color utilitzat pel tema per controlar l'estètica. Requereix suport del tema. Opcional."
+
+#: Tourney/forms/setup.py:91
+msgid "Verify Emails"
+msgstr "Verificar Correus Electrònics"
+
+#: Tourney/forms/setup.py:143
+msgid "Start Time"
+msgstr "Hora d'Inici"
+
+#: Tourney/forms/setup.py:144
+msgid "Time when your CTF is scheduled to start. Optional."
+msgstr "Hora en què està programat que comenci el teu CTF. Opcional."
+
+#: Tourney/forms/setup.py:147
+msgid "End Time"
+msgstr "Hola de Fi"
+
+#: Tourney/forms/setup.py:148
+msgid "Time when your CTF is scheduled to end. Optional."
+msgstr "Hora en què està programat que finalitzi el teu CTF. Opcional."
+
+#: Tourney/forms/setup.py:150
+msgid "Finish"
+msgstr "Finalitzar"
+
+#: Tourney/forms/teams.py:102 Tourney/forms/teams.py:109 Tourney/forms/teams.py:127
+#: Tourney/forms/teams.py:229
+msgid "Team Name"
+msgstr "Nom de l'Equip"
+
+#: Tourney/forms/teams.py:103 Tourney/forms/teams.py:110
+msgid "Team Password"
+msgstr "Contrasenya de l'Equip"
+
+#: Tourney/forms/teams.py:104 Tourney/forms/teams.py:289
+msgid "Join"
+msgstr "Uneix-te"
+
+#: Tourney/forms/teams.py:111
+msgid "Create"
+msgstr "Crea"
+
+#: Tourney/forms/teams.py:128
+msgid "Your team's public name shown to other competitors"
+msgstr "El nom públic del teu equip mostrat a altres competidors"
+
+#: Tourney/forms/teams.py:131
+msgid "New Team Password"
+msgstr "Nova contrasenya de l'equip"
+
+#: Tourney/forms/teams.py:131
+msgid "Set a new team join password"
+msgstr "Estableix una nova contrasenya per unir-se a l'equip"
+
+#: Tourney/forms/teams.py:134
+msgid "Confirm Current Team Password"
+msgstr "Confirma la contrasenya actual de l'equip"
+
+#: Tourney/forms/teams.py:136
+msgid "Provide your current team password (or your password) to update your team's password"
+msgstr "Proporciona la contrasenya actual de l'equip (o la teva) per actualitzar la contrasenya de l'equip"
+
+#: Tourney/forms/teams.py:142
+msgid "Your team's affiliation publicly shown to other competitors"
+msgstr "L'afiliació del teu equip mostrada públicament a altres competidors"
+
+#: Tourney/forms/teams.py:147
+msgid "Your team's website publicly shown to other competitors"
+msgstr "El lloc web del teu equip mostrat públicament a altres competidors"
+
+#: Tourney/forms/teams.py:152
+msgid "Your team's country publicly shown to other competitors"
+msgstr "El país del teu equip mostrat públicament a altres competidors"
+
+#: Tourney/forms/teams.py:192
+msgid "Team Captain"
+msgstr "Capità de l'equip"
+
+#: Tourney/forms/teams.py:215 Tourney/forms/users.py:161
+msgid "Search Field"
+msgstr "Camp de cerca"
+
+#: Tourney/forms/teams.py:217 Tourney/forms/users.py:163
+#: Tourney/themes/core-beta/templates/challenge.html:206
+msgid "Name"
+msgstr "Nom"
+
+#: Tourney/forms/teams.py:224 Tourney/forms/users.py:171
+msgid "Parameter"
+msgstr "Paràmetre"
+
+#: Tourney/forms/teams.py:225 Tourney/forms/users.py:175
+msgid "Search"
+msgstr "Cerca"
+
+#: Tourney/forms/teams.py:235
+msgid "Hidden"
+msgstr "Ocult"
+
+#: Tourney/forms/teams.py:236
+msgid "Banned"
+msgstr "Prohibit"
+
+#: Tourney/forms/teams.py:285
+msgid "Invite Link"
+msgstr "Enllaç d'invitació"
+
+#: Tourney/forms/users.py:133
+msgid "Bracket"
+msgstr ""
+
+#: Tourney/forms/users.py:134
+msgid "Competition bracket for your user"
+msgstr ""
+
+#: Tourney/forms/users.py:172
+msgid "Search for matching users"
+msgstr "Cerca usuaris coincidents"
+
+#: Tourney/themes/core-beta/templates/base.html:53
+msgid "Powered by Tourney"
+msgstr "Impulsat per Tourney"
+
+#: Tourney/themes/core-beta/templates/challenge.html:11
+#: Tourney/themes/core-beta/templates/teams/private.html:388
+#: Tourney/themes/core-beta/templates/teams/public.html:157
+#: Tourney/themes/core-beta/templates/users/private.html:124
+#: Tourney/themes/core-beta/templates/users/public.html:123
+msgid "Challenge"
+msgstr "Desafiament"
+
+#: Tourney/themes/core-beta/templates/challenge.html:19
+#, python-format
+msgid "%(num)d Solve"
+msgid_plural "%(num)d Solves"
+msgstr[0] "%(num)d Solució"
+msgstr[1] "%(num)d Solucions"
+
+#: Tourney/themes/core-beta/templates/challenge.html:77
+msgid "View Hint"
+msgstr "Veure Pista"
+
+#: Tourney/themes/core-beta/templates/challenge.html:120
+msgid "attempt"
+msgid_plural "attempts"
+msgstr[0] ""
+msgstr[1] ""
+
+#: Tourney/themes/core-beta/templates/challenge.html:135
+msgid "Flag"
+msgstr "Bandera"
+
+#: Tourney/themes/core-beta/templates/challenge.html:169
+msgid "Next Challenge"
+msgstr "Pròxim Desafiament"
+
+#: Tourney/themes/core-beta/templates/challenge.html:175
+msgid "Share"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/challenge.html:207
+#: Tourney/themes/core-beta/templates/setup.html:305
+#: Tourney/themes/core-beta/templates/setup.html:326
+msgid "Date"
+msgstr "Data"
+
+#: Tourney/themes/core-beta/templates/challenges.html:7
+#: Tourney/themes/core-beta/templates/components/navbar.html:59
+msgid "Challenges"
+msgstr "Reptes"
+
+#: Tourney/themes/core-beta/templates/confirm.html:7
+msgid "Confirm"
+msgstr "Confirma"
+
+#: Tourney/themes/core-beta/templates/confirm.html:18
+msgid "We've sent a confirmation email to your email address."
+msgstr "Hem enviat un correu electrònic de confirmació a la teva adreça."
+
+#: Tourney/themes/core-beta/templates/confirm.html:24
+msgid "Please click the link in that email to confirm your account."
+msgstr "Si us plau, fes clic a l'enllaç d'aquest correu per confirmar el teu compte."
+
+#: Tourney/themes/core-beta/templates/confirm.html:30
+msgid "If the email doesn’t arrive, check your spam folder or contact an administrator to manually verify your account."
+msgstr "Si el correu no arriba, revisa la carpeta de correu brossa o contacta amb un administrador per verificar manualment el teu compte."
+
+#: Tourney/themes/core-beta/templates/confirm.html:43
+msgid "Change Email Address"
+msgstr "Canvia l'adreça de correu electrònic"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:164
+#: Tourney/themes/core-beta/templates/components/navbar.html:169
+#: Tourney/themes/core-beta/templates/login.html:7
+msgid "Login"
+msgstr "Inicia sessió"
+
+#: Tourney/themes/core-beta/templates/login.html:40
+msgid "Forgot your password?"
+msgstr "Has oblidat la teva contrasenya?"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:85
+#: Tourney/themes/core-beta/templates/components/navbar.html:91
+#: Tourney/themes/core-beta/templates/notifications.html:7
+msgid "Notifications"
+msgstr "Notificacions"
+
+#: Tourney/themes/core-beta/templates/notifications.html:14
+msgid "There are no notifications yet"
+msgstr "Encara no hi ha notificacions"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:151
+#: Tourney/themes/core-beta/templates/components/navbar.html:156
+#: Tourney/themes/core-beta/templates/register.html:7
+msgid "Register"
+msgstr "Registra't"
+
+#: Tourney/themes/core-beta/templates/register.html:35
+msgid "Your username on the site"
+msgstr "El teu nom d'usuari al lloc"
+
+#: Tourney/themes/core-beta/templates/register.html:43
+msgid "Never shown to the public"
+msgstr "Mai es mostra al públic"
+
+#: Tourney/themes/core-beta/templates/register.html:51
+msgid "Password used to log into your account"
+msgstr "Contrasenya utilitzada per iniciar sessió al teu compte"
+
+#: Tourney/themes/core-beta/templates/register.html:69
+#, python-format
+msgid "By registering, you agree to the <a href=\"%(privacy_link)s\" target=\"_blank\">privacy policy</a> and <a href=\"%(tos_link)s\" target=\"_blank\">terms of service</a>"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/reset_password.html:7
+msgid "Reset Password"
+msgstr "Restableix la contrasenya"
+
+#: Tourney/themes/core-beta/templates/reset_password.html:21
+msgid "You can now reset the password for your account and log in. Please enter in a new password below."
+msgstr "Ara pots restablir la contrasenya del teu compte i iniciar sessió. Si us plau, introdueix una nova contrasenya a continuació."
+
+#: Tourney/themes/core-beta/templates/reset_password.html:44
+msgid "Please provide the email address associated with your account below."
+msgstr "Si us plau, proporciona a continuació l'adreça de correu electrònic associada al teu compte."
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:52
+#: Tourney/themes/core-beta/templates/scoreboard.html:7
+msgid "Scoreboard"
+msgstr "Marcador"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:24
+msgid "All"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:36
+msgid "Place"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:38
+#: Tourney/themes/core-beta/templates/teams/private.html:330
+#: Tourney/themes/core-beta/templates/teams/public.html:96
+msgid "Score"
+msgstr "Puntuació"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:60
+msgid "Scoreboard is empty"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:124
+#: Tourney/themes/core-beta/templates/components/navbar.html:129
+#: Tourney/themes/core-beta/templates/settings.html:8
+#: Tourney/themes/core-beta/templates/setup.html:50
+msgid "Settings"
+msgstr "Configuració"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:112
+#: Tourney/themes/core-beta/templates/components/navbar.html:117
+#: Tourney/themes/core-beta/templates/settings.html:21
+msgid "Profile"
+msgstr "Perfil"
+
+#: Tourney/themes/core-beta/templates/settings.html:26
+msgid "Access Tokens"
+msgstr "Tokens d'accés"
+
+#: Tourney/themes/core-beta/templates/settings.html:95
+msgid "Your profile has been updated"
+msgstr "El teu perfil ha estat actualitzat"
+
+#: Tourney/themes/core-beta/templates/settings.html:103
+#: Tourney/themes/core-beta/templates/teams/private.html:83
+#: Tourney/themes/core-beta/templates/teams/private.html:198
+msgid "Error:"
+msgstr "Error:"
+
+#: Tourney/themes/core-beta/templates/settings.html:129
+msgid "API Key Generated"
+msgstr "Clau API generada"
+
+#: Tourney/themes/core-beta/templates/settings.html:137
+msgid "Please copy your API Key, it won't be shown again!"
+msgstr "Si us plau, copia la teva clau API, no es tornarà a mostrar!"
+
+#: Tourney/themes/core-beta/templates/settings.html:183
+msgid "Active Tokens"
+msgstr "Tokens actius"
+
+#: Tourney/themes/core-beta/templates/settings.html:195
+msgid "Delete Token"
+msgstr "Elimina Token"
+
+#: Tourney/themes/core-beta/templates/settings.html:204
+msgid "Are you sure you want to delete this token?"
+msgstr "Estàs segur que vols eliminar aquest token?"
+
+#: Tourney/themes/core-beta/templates/settings.html:224
+msgid "Created"
+msgstr "Creat"
+
+#: Tourney/themes/core-beta/templates/settings.html:226
+msgid "Description"
+msgstr "Descripció"
+
+#: Tourney/themes/core-beta/templates/settings.html:227
+msgid "Delete"
+msgstr "Elimina"
+
+#: Tourney/themes/core-beta/templates/setup.html:24
+msgid "Setup"
+msgstr "Configuració"
+
+#: Tourney/themes/core-beta/templates/setup.html:44
+msgid "General"
+msgstr "General"
+
+#: Tourney/themes/core-beta/templates/setup.html:47
+msgid "Mode"
+msgstr "Mode"
+
+#: Tourney/themes/core-beta/templates/setup.html:53
+msgid "Administration"
+msgstr "Administració"
+
+#: Tourney/themes/core-beta/templates/setup.html:56
+msgid "Style"
+msgstr "Estil"
+
+#: Tourney/themes/core-beta/templates/setup.html:59
+msgid "Date &amp; Time"
+msgstr "Data &amp; hora"
+
+#: Tourney/themes/core-beta/templates/setup.html:62
+msgid "Integrations"
+msgstr "Integracions"
+
+#: Tourney/themes/core-beta/templates/setup.html:86
+#: Tourney/themes/core-beta/templates/setup.html:138
+#: Tourney/themes/core-beta/templates/setup.html:202
+#: Tourney/themes/core-beta/templates/setup.html:238
+#: Tourney/themes/core-beta/templates/setup.html:296
+#: Tourney/themes/core-beta/templates/setup.html:345
+msgid "Next"
+msgstr "Següent"
+
+#: Tourney/themes/core-beta/templates/setup.html:112
+msgid "Participants register accounts and form teams"
+msgstr "Els participants registren comptes i formen equips"
+
+#: Tourney/themes/core-beta/templates/setup.html:113
+msgid "If a team member solves a challenge, the entire team receives credit"
+msgstr "Si un membre de l'equip resol un desafiament, tot l'equip rep crèdit"
+
+#: Tourney/themes/core-beta/templates/setup.html:115
+msgid "Easier to see which team member solved a challenge"
+msgstr "És més fàcil veure quin membre de l'equip ha resolt un desafiament"
+
+#: Tourney/themes/core-beta/templates/setup.html:116
+msgid "May be slightly more difficult to administer"
+msgstr "Pot ser una mica més difícil d'administrar"
+
+#: Tourney/themes/core-beta/templates/setup.html:120
+msgid "Participants only register an individual account"
+msgstr "Els participants només registren un compte individual"
+
+#: Tourney/themes/core-beta/templates/setup.html:121
+msgid "Players can share accounts to form pseudo-teams"
+msgstr "Els jugadors poden compartir comptes per formar pseudo-equips"
+
+#: Tourney/themes/core-beta/templates/setup.html:123
+msgid "Easier to organize"
+msgstr "Més fàcil d'organitzar"
+
+#: Tourney/themes/core-beta/templates/setup.html:124
+msgid "Difficult to attribute solutions to individual team members"
+msgstr "Difícil atribuir les solucions als membres individuals de l'equip"
+
+#: Tourney/themes/core-beta/templates/setup.html:143
+msgid "Visibility Settings"
+msgstr "Configuració de Visibilitat"
+
+#: Tourney/themes/core-beta/templates/setup.html:146
+msgid "Control the visibility of different sections of Tourney"
+msgstr "Controla la visibilitat de diferents seccions de Tourney"
+
+#: Tourney/themes/core-beta/templates/setup.html:232
+msgid "Subscribe email address to the Tourney LLC Newsletter for news and updates"
+msgstr "Subscriu l'adreça de correu electrònic al butlletí de Tourney LLC per a notícies i actualitzacions"
+
+#: Tourney/themes/core-beta/templates/setup.html:309
+#: Tourney/themes/core-beta/templates/setup.html:330
+#: Tourney/themes/core-beta/templates/teams/private.html:391
+#: Tourney/themes/core-beta/templates/teams/public.html:160
+#: Tourney/themes/core-beta/templates/users/private.html:127
+#: Tourney/themes/core-beta/templates/users/public.html:126
+msgid "Time"
+msgstr "Hora"
+
+#: Tourney/themes/core-beta/templates/setup.html:334
+msgid "UTC Preview"
+msgstr "Previsualització UTC"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:36
+#: Tourney/themes/core-beta/templates/users/users.html:6
+msgid "Users"
+msgstr "Usuaris"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:43
+#: Tourney/themes/core-beta/templates/teams/teams.html:6
+msgid "Teams"
+msgstr "Equips"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:72
+#: Tourney/themes/core-beta/templates/components/navbar.html:77
+msgid "Admin Panel"
+msgstr "Panell d'Administració"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:99
+#: Tourney/themes/core-beta/templates/components/navbar.html:104
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:6
+#: Tourney/themes/core-beta/templates/teams/teams.html:49
+msgid "Team"
+msgstr "Equip"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:136
+#: Tourney/themes/core-beta/templates/components/navbar.html:141
+msgid "Logout"
+msgstr "Sortir"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:180
+msgid "Change language"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:199
+#: Tourney/themes/core-beta/templates/components/navbar.html:204
+msgid "Toggle theme"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/403.html:12
+msgid "403 Forbidden"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/404.html:9
+msgid "File not found"
+msgstr "Fitxer no trobat"
+
+#: Tourney/themes/core-beta/templates/errors/404.html:12
+msgid "404 Not Found"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/429.html:9
+msgid "Too many requests"
+msgstr "Massa peticions"
+
+#: Tourney/themes/core-beta/templates/errors/429.html:10
+msgid "Please slow down!"
+msgstr "Si us plau, afluixa el ritme!"
+
+#: Tourney/themes/core-beta/templates/errors/429.html:13
+msgid "429 Too Many Requests"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/502.html:12
+msgid "502 Bad Gateway"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/macros/forms.html:13
+#: Tourney/themes/core-beta/templates/macros/forms.html:36
+#: Tourney/themes/core-beta/templates/macros/forms.html:65
+msgid "(Optional)"
+msgstr "(Opcional)"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:6
+#: Tourney/themes/core-beta/templates/teams/join_team.html:6
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:36
+msgid "Join Team"
+msgstr "Uneix-te a l'equip"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:15
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:12
+msgid "Welcome to"
+msgstr "Benvingut a"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:19
+msgid "Click the button below to join the team!"
+msgstr "Fes clic al botó de sota per unir-te a l'equip!"
+
+#: Tourney/themes/core-beta/templates/teams/new_team.html:6
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:39
+msgid "Create Team"
+msgstr "Crea l'equip"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:8
+msgid "Edit Team"
+msgstr "Edita l'equip"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:76
+msgid "Your team's profile has been updated"
+msgstr "El perfil del teu equip s'ha actualitzat"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:104
+msgid "Choose Captain"
+msgstr "Tria Capità"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:127
+msgid "Your captain rights have been transferred"
+msgstr "Els teus drets de capità han estat transferits"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:152
+msgid "Invite Users"
+msgstr "Convida usuaris"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:171
+msgid "Share this link with your team members for them to join your team"
+msgstr "Comparteix aquest enllaç amb els membres del teu equip perquè s'uneixin"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:174
+msgid "Invite links can be re-used and expire after 1 day"
+msgstr "Els enllaços d'invitació es poden reutilitzar i caduquen després d'un dia"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:188
+msgid "Disband Team"
+msgstr "Dissol l'equip"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:193
+msgid "Are you sure you want to disband your team?"
+msgstr "Estàs segur que vols dissoldre el teu equip?"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:206
+msgid "No"
+msgstr "No"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:207
+msgid "Yes"
+msgstr "Si"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:218
+#: Tourney/themes/core-beta/templates/teams/public.html:10
+#: Tourney/themes/core-beta/templates/users/private.html:21
+#: Tourney/themes/core-beta/templates/users/public.html:21
+#: Tourney/themes/core-beta/templates/users/users.html:70
+msgid "Official"
+msgstr "Oficial"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:260
+msgid "place"
+msgstr "lloc"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:268
+msgid "points"
+msgstr "punts"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:325
+#: Tourney/themes/core-beta/templates/teams/public.html:91
+msgid "Members"
+msgstr "Membres"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:345
+#: Tourney/themes/core-beta/templates/teams/public.html:110
+msgid "Captain"
+msgstr "Capità"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:361
+#: Tourney/themes/core-beta/templates/teams/public.html:125
+#: Tourney/themes/core-beta/templates/users/private.html:98
+#: Tourney/themes/core-beta/templates/users/public.html:98
+msgid "Awards"
+msgstr "Premis"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:384
+#: Tourney/themes/core-beta/templates/teams/public.html:153
+#: Tourney/themes/core-beta/templates/users/private.html:120
+msgid "Solves"
+msgstr "Solucions"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:389
+#: Tourney/themes/core-beta/templates/teams/public.html:158
+#: Tourney/themes/core-beta/templates/users/private.html:125
+#: Tourney/themes/core-beta/templates/users/public.html:124
+msgid "Category"
+msgstr "Categoria"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:390
+#: Tourney/themes/core-beta/templates/teams/public.html:159
+#: Tourney/themes/core-beta/templates/users/private.html:126
+#: Tourney/themes/core-beta/templates/users/public.html:125
+msgid "Value"
+msgstr "Valor"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:481
+#: Tourney/themes/core-beta/templates/teams/public.html:248
+#: Tourney/themes/core-beta/templates/users/private.html:213
+#: Tourney/themes/core-beta/templates/users/public.html:214
+msgid "No solves yet"
+msgstr "Encara no hi ha solucions"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:14
+msgid "In order to participate you must either join or create a team."
+msgstr "Per participar cal que t'uneixis o crear un equip."
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:22
+msgid "Play with Official Team"
+msgstr "Juga amb l'Equip Oficial"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:27
+msgid "Join Unofficial Team"
+msgstr "Uneix-te a un Equip No Oficial"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:30
+msgid "Create Unofficial Team"
+msgstr "Crea un Equip No Oficial"
+
+#: Tourney/themes/core-beta/templates/teams/teams.html:128
+#: Tourney/themes/core-beta/templates/users/users.html:118
+msgid "Page"
+msgstr "Pàgina"
+
+#: Tourney/themes/core-beta/templates/users/users.html:14
+#, python-format
+msgid "Searching for users with <strong>%(field)s</strong> matching <strong>%(q)s</strong>"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/users/users.html:17
+#, python-format
+msgid "Page %(page)s of %(total)s results"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/users/users.html:46
+msgid "User"
+msgstr "Usuari"
+
+#: Tourney/utils/modes/__init__.py:35
+msgid "user"
+msgid_plural "users"
+msgstr[0] "usuari"
+msgstr[1] "usuaris"
+
+#: Tourney/utils/modes/__init__.py:37
+msgid "team"
+msgid_plural "teams"
+msgstr[0] "equip"
+msgstr[1] "equips"
+

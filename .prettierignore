@@ -1,0 +1,17 @@
+Tourney/themes/**/vendor/
+Tourney/themes/core-deprecated/
+Tourney/themes/core/static/
+Tourney/themes/core-beta/**/*
+Tourney/themes/admin/static/**/*
+*.html
+*.njk
+*.png
+*.svg
+*.ico
+*.ai
+*.svg
+*.mp3
+*.webm
+.pytest_cache
+venv*
+.venv*

@@ -1,0 +1,864 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tourney\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-04-02 07:37-0400\n"
+"PO-Revision-Date: 2026-01-14 01:01\n"
+"Last-Translator: \n"
+"Language-Team: Croatian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+"X-Crowdin-Project: Tourney\n"
+"X-Crowdin-Project-ID: 659064\n"
+"X-Crowdin-Language: hr\n"
+"X-Crowdin-File: /master/messages.pot\n"
+"X-Crowdin-File-ID: 188\n"
+"Language: hr_HR\n"
+
+#: Tourney/challenges.py:38
+msgid "Challenge Visibility is set to Admins Only"
+msgstr "Izazovi su vidljivi samo administratorima"
+
+#: Tourney/challenges.py:41 Tourney/utils/decorators/__init__.py:39
+#, python-format
+msgid "%(ctf_name)s has not started yet"
+msgstr "%(ctf_name)s još nije počelo"
+
+#: Tourney/challenges.py:44
+#, python-format
+msgid "%(ctf_name)s is paused"
+msgstr "%(ctf_name)s je pauzirano"
+
+#: Tourney/challenges.py:47 Tourney/utils/decorators/__init__.py:31
+#, python-format
+msgid "%(ctf_name)s has ended"
+msgstr "%(ctf_name)s je završilo"
+
+#: Tourney/forms/auth.py:21 Tourney/forms/self.py:21
+#: Tourney/themes/core-beta/templates/teams/private.html:329
+#: Tourney/themes/core-beta/templates/teams/public.html:95
+msgid "User Name"
+msgstr "Korisničko ime"
+
+#: Tourney/forms/auth.py:23 Tourney/forms/auth.py:60 Tourney/forms/self.py:22
+#: Tourney/forms/teams.py:230
+msgid "Email"
+msgstr "E-pošta"
+
+#: Tourney/forms/auth.py:24 Tourney/forms/auth.py:50 Tourney/forms/auth.py:67
+#: Tourney/forms/self.py:24 Tourney/forms/teams.py:231
+msgid "Password"
+msgstr "Lozinka"
+
+#: Tourney/forms/auth.py:25 Tourney/forms/auth.py:51 Tourney/forms/auth.py:62
+#: Tourney/forms/auth.py:69 Tourney/forms/self.py:29 Tourney/forms/teams.py:154
+#: Tourney/forms/teams.py:237 Tourney/themes/core-beta/templates/challenge.html:147
+msgid "Submit"
+msgstr "Pošalji"
+
+#: Tourney/forms/auth.py:46
+msgid "User Name or Email"
+msgstr "Korisničko ime ili e-pošta"
+
+#: Tourney/forms/auth.py:55
+msgid "Resend Confirmation Email"
+msgstr "Ponovno pošalji e-poštu za potvrdu"
+
+#: Tourney/forms/self.py:23 Tourney/forms/users.py:181
+msgid "Language"
+msgstr "Jezik"
+
+#: Tourney/forms/self.py:25
+msgid "Current Password"
+msgstr "Trenutna lozinka"
+
+#: Tourney/forms/self.py:26 Tourney/forms/teams.py:140 Tourney/forms/teams.py:218
+#: Tourney/forms/teams.py:233 Tourney/forms/users.py:164
+#: Tourney/themes/core-beta/templates/teams/teams.html:51
+#: Tourney/themes/core-beta/templates/users/users.html:48
+msgid "Affiliation"
+msgstr "Pripadnost"
+
+#: Tourney/forms/self.py:27 Tourney/forms/teams.py:146 Tourney/forms/teams.py:219
+#: Tourney/forms/teams.py:232 Tourney/forms/users.py:165
+#: Tourney/themes/core-beta/templates/teams/teams.html:50
+#: Tourney/themes/core-beta/templates/users/users.html:47
+msgid "Website"
+msgstr "Web stranica"
+
+#: Tourney/forms/self.py:28 Tourney/forms/teams.py:150 Tourney/forms/teams.py:234
+#: Tourney/themes/core-beta/templates/teams/teams.html:52
+#: Tourney/themes/core-beta/templates/users/users.html:49
+msgid "Country"
+msgstr "Država"
+
+#: Tourney/forms/self.py:59 Tourney/themes/core-beta/templates/settings.html:225
+msgid "Expiration"
+msgstr "Istek"
+
+#: Tourney/forms/self.py:61
+msgid "Generate"
+msgstr "Stvori"
+
+#: Tourney/forms/setup.py:29
+msgid "Event Name"
+msgstr "Ime događaja"
+
+#: Tourney/forms/setup.py:29
+msgid "The name of your CTF event/workshop"
+msgstr "Ime vašega CTF događaja/radionice"
+
+#: Tourney/forms/setup.py:32
+msgid "Event Description"
+msgstr "Opis događaja"
+
+#: Tourney/forms/setup.py:32
+msgid "Description for the CTF"
+msgstr "Opis za CTF"
+
+#: Tourney/forms/setup.py:35 Tourney/forms/setup.py:36
+msgid "User Mode"
+msgstr "Pojedinačni način"
+
+#: Tourney/forms/setup.py:36
+msgid "Team Mode"
+msgstr "Ekipni način"
+
+#: Tourney/forms/setup.py:39
+msgid "Controls whether users join together in teams to play (Team Mode) or play as themselves (User Mode)"
+msgstr "Kontrolira hoće li se korisnici udružiti u ekipu ​​(Ekipni način) ili će igrati kao pojedinci (Pojedinačni način)"
+
+#: Tourney/forms/setup.py:45
+msgid "Admin Username"
+msgstr "Administratorsko ime"
+
+#: Tourney/forms/setup.py:46
+msgid "Your username for the administration account"
+msgstr "Korisničko ime za administratorski račun"
+
+#: Tourney/forms/setup.py:50
+msgid "Admin Email"
+msgstr "Administratorska e-pošta"
+
+#: Tourney/forms/setup.py:51
+msgid "Your email address for the administration account"
+msgstr "Adresa e-pošte za administratorski račun"
+
+#: Tourney/forms/setup.py:55
+msgid "Admin Password"
+msgstr "Administratorska lozinka"
+
+#: Tourney/forms/setup.py:56
+msgid "Your password for the administration account"
+msgstr "Lozinka za administratorski račun"
+
+#: Tourney/forms/setup.py:61
+msgid "Logo"
+msgstr "Logo"
+
+#: Tourney/forms/setup.py:63
+msgid "Logo to use for the website instead of a CTF name. Used as the home page button. Optional."
+msgstr "Logo koji će se koristiti umjesto imena CTF-a. Koristi se kao gumb za početnu stranicu. Neobavezno."
+
+#: Tourney/forms/setup.py:67
+msgid "Banner"
+msgstr "Transparent"
+
+#: Tourney/forms/setup.py:67
+msgid "Banner to use for the homepage. Optional."
+msgstr "Transparent za početnu stranicu. Neobavezno."
+
+#: Tourney/forms/setup.py:70
+msgid "Small Icon"
+msgstr "Mala ikona"
+
+#: Tourney/forms/setup.py:72
+msgid "favicon used in user's browsers. Only PNGs accepted. Must be 32x32px. Optional."
+msgstr "favicon korišten u pregledniku korisnika. Dozvoljene samo PNG datoteke. Mora biti 32x32px. Neobavezno."
+
+#: Tourney/forms/setup.py:76
+msgid "Theme"
+msgstr "Tema"
+
+#: Tourney/forms/setup.py:77
+msgid "Tourney Theme to use. Can be changed later."
+msgstr "Tourney tema koja će se koristiti. Moguće su naknadne promjene."
+
+#: Tourney/forms/setup.py:84
+msgid "Theme Color"
+msgstr "Boja teme"
+
+#: Tourney/forms/setup.py:86
+msgid "Color used by theme to control aesthetics. Requires theme support. Optional."
+msgstr "Boja koju tema koristi za kontrolu estetike. Zahtijeva podršku teme. Neobavezno."
+
+#: Tourney/forms/setup.py:91
+msgid "Verify Emails"
+msgstr "Potvrdi e-pošte"
+
+#: Tourney/forms/setup.py:143
+msgid "Start Time"
+msgstr "Vrijeme početka"
+
+#: Tourney/forms/setup.py:144
+msgid "Time when your CTF is scheduled to start. Optional."
+msgstr "Vrijeme, kada je predviđen početak vašega CTF-a. Neobavezno."
+
+#: Tourney/forms/setup.py:147
+msgid "End Time"
+msgstr "Vrijeme završetka"
+
+#: Tourney/forms/setup.py:148
+msgid "Time when your CTF is scheduled to end. Optional."
+msgstr "Vrijeme, kada je predviđen zavšetak vašega CTF-a. Neobavezno."
+
+#: Tourney/forms/setup.py:150
+msgid "Finish"
+msgstr "Završi"
+
+#: Tourney/forms/teams.py:102 Tourney/forms/teams.py:109 Tourney/forms/teams.py:127
+#: Tourney/forms/teams.py:229
+msgid "Team Name"
+msgstr "Ime ekipe"
+
+#: Tourney/forms/teams.py:103 Tourney/forms/teams.py:110
+msgid "Team Password"
+msgstr "Lozinka skupine"
+
+#: Tourney/forms/teams.py:104 Tourney/forms/teams.py:289
+msgid "Join"
+msgstr "Pridruži se"
+
+#: Tourney/forms/teams.py:111
+msgid "Create"
+msgstr "Stvori"
+
+#: Tourney/forms/teams.py:128
+msgid "Your team's public name shown to other competitors"
+msgstr "Ima vaše ekipe prikazano konkurentima"
+
+#: Tourney/forms/teams.py:131
+msgid "New Team Password"
+msgstr "Nova lozinka za ekipu"
+
+#: Tourney/forms/teams.py:131
+msgid "Set a new team join password"
+msgstr "Postavi novu lozinku za pridruživanje ekipi"
+
+#: Tourney/forms/teams.py:134
+msgid "Confirm Current Team Password"
+msgstr "Potvrdi trenutnu lozinku od ekipe"
+
+#: Tourney/forms/teams.py:136
+msgid "Provide your current team password (or your password) to update your team's password"
+msgstr ""
+
+#: Tourney/forms/teams.py:142
+msgid "Your team's affiliation publicly shown to other competitors"
+msgstr ""
+
+#: Tourney/forms/teams.py:147
+msgid "Your team's website publicly shown to other competitors"
+msgstr ""
+
+#: Tourney/forms/teams.py:152
+msgid "Your team's country publicly shown to other competitors"
+msgstr "Država vaše ekipe prikazana konkurentima"
+
+#: Tourney/forms/teams.py:192
+msgid "Team Captain"
+msgstr "Kapetan ekipe"
+
+#: Tourney/forms/teams.py:215 Tourney/forms/users.py:161
+msgid "Search Field"
+msgstr "Polje za pretraživanje"
+
+#: Tourney/forms/teams.py:217 Tourney/forms/users.py:163
+#: Tourney/themes/core-beta/templates/challenge.html:206
+msgid "Name"
+msgstr "Ime"
+
+#: Tourney/forms/teams.py:224 Tourney/forms/users.py:171
+msgid "Parameter"
+msgstr "Parametar"
+
+#: Tourney/forms/teams.py:225 Tourney/forms/users.py:175
+msgid "Search"
+msgstr "Pretraživanje"
+
+#: Tourney/forms/teams.py:235
+msgid "Hidden"
+msgstr "Skriveno"
+
+#: Tourney/forms/teams.py:236
+msgid "Banned"
+msgstr "Izopćen"
+
+#: Tourney/forms/teams.py:285
+msgid "Invite Link"
+msgstr "Poveznica za poziv"
+
+#: Tourney/forms/users.py:133
+msgid "Bracket"
+msgstr ""
+
+#: Tourney/forms/users.py:134
+msgid "Competition bracket for your user"
+msgstr ""
+
+#: Tourney/forms/users.py:172
+msgid "Search for matching users"
+msgstr "Pretraživanje odgovarajućih korisnika"
+
+#: Tourney/themes/core-beta/templates/base.html:53
+msgid "Powered by Tourney"
+msgstr "Pokreće Tourney"
+
+#: Tourney/themes/core-beta/templates/challenge.html:11
+#: Tourney/themes/core-beta/templates/teams/private.html:388
+#: Tourney/themes/core-beta/templates/teams/public.html:157
+#: Tourney/themes/core-beta/templates/users/private.html:124
+#: Tourney/themes/core-beta/templates/users/public.html:123
+msgid "Challenge"
+msgstr "Izazov"
+
+#: Tourney/themes/core-beta/templates/challenge.html:19
+#, python-format
+msgid "%(num)d Solve"
+msgid_plural "%(num)d Solves"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: Tourney/themes/core-beta/templates/challenge.html:77
+msgid "View Hint"
+msgstr "Prikaži savjet"
+
+#: Tourney/themes/core-beta/templates/challenge.html:120
+msgid "attempt"
+msgid_plural "attempts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: Tourney/themes/core-beta/templates/challenge.html:135
+msgid "Flag"
+msgstr "Zastavica"
+
+#: Tourney/themes/core-beta/templates/challenge.html:169
+msgid "Next Challenge"
+msgstr "Sljedeći izazov"
+
+#: Tourney/themes/core-beta/templates/challenge.html:175
+msgid "Share"
+msgstr "Podijeli"
+
+#: Tourney/themes/core-beta/templates/challenge.html:207
+#: Tourney/themes/core-beta/templates/setup.html:305
+#: Tourney/themes/core-beta/templates/setup.html:326
+msgid "Date"
+msgstr "Datum"
+
+#: Tourney/themes/core-beta/templates/challenges.html:7
+#: Tourney/themes/core-beta/templates/components/navbar.html:59
+msgid "Challenges"
+msgstr "Izazovi"
+
+#: Tourney/themes/core-beta/templates/confirm.html:7
+msgid "Confirm"
+msgstr "Potvrdi"
+
+#: Tourney/themes/core-beta/templates/confirm.html:18
+msgid "We've sent a confirmation email to your email address."
+msgstr "Poslali smo vam poruku s potvrdom na vašu adresu e-pošte."
+
+#: Tourney/themes/core-beta/templates/confirm.html:24
+msgid "Please click the link in that email to confirm your account."
+msgstr "Molimo kliknite na poveznicu u toj e-pošti kako biste potvrdili svoj račun."
+
+#: Tourney/themes/core-beta/templates/confirm.html:30
+msgid "If the email doesn’t arrive, check your spam folder or contact an administrator to manually verify your account."
+msgstr "Ako niste zaprimili e-poštu, provjerite mapu spam ili kontaktirajte administratora da ručno potvrdi vaš račun."
+
+#: Tourney/themes/core-beta/templates/confirm.html:43
+msgid "Change Email Address"
+msgstr "Promijeni adresu e-pošte"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:164
+#: Tourney/themes/core-beta/templates/components/navbar.html:169
+#: Tourney/themes/core-beta/templates/login.html:7
+msgid "Login"
+msgstr "Prijava"
+
+#: Tourney/themes/core-beta/templates/login.html:40
+msgid "Forgot your password?"
+msgstr "Zaboravili ste lozinku?"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:85
+#: Tourney/themes/core-beta/templates/components/navbar.html:91
+#: Tourney/themes/core-beta/templates/notifications.html:7
+msgid "Notifications"
+msgstr "Obavijest"
+
+#: Tourney/themes/core-beta/templates/notifications.html:14
+msgid "There are no notifications yet"
+msgstr "Nema obavijesti"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:151
+#: Tourney/themes/core-beta/templates/components/navbar.html:156
+#: Tourney/themes/core-beta/templates/register.html:7
+msgid "Register"
+msgstr "Registriraj se"
+
+#: Tourney/themes/core-beta/templates/register.html:35
+msgid "Your username on the site"
+msgstr "Vaše korisničko ime na ovaj stranici"
+
+#: Tourney/themes/core-beta/templates/register.html:43
+msgid "Never shown to the public"
+msgstr "Nikada ne pokazati javnosti"
+
+#: Tourney/themes/core-beta/templates/register.html:51
+msgid "Password used to log into your account"
+msgstr "Lozinka koja se koristi za prijavu u vaš korisnički račun"
+
+#: Tourney/themes/core-beta/templates/register.html:69
+#, python-format
+msgid "By registering, you agree to the <a href=\"%(privacy_link)s\" target=\"_blank\">privacy policy</a> and <a href=\"%(tos_link)s\" target=\"_blank\">terms of service</a>"
+msgstr "S registracijom se slažete s <a href=\"%(privacy_link)s\" target=\"_blank\">politikom privatnosti</a> i <a href=\"%(tos_link)s\" target=\"_blank\">uvjetima korištenja</a>"
+
+#: Tourney/themes/core-beta/templates/reset_password.html:7
+msgid "Reset Password"
+msgstr "Resetiraj lozinku"
+
+#: Tourney/themes/core-beta/templates/reset_password.html:21
+msgid "You can now reset the password for your account and log in. Please enter in a new password below."
+msgstr "Sada možete resetirati lozinku za svoj račun i prijaviti se.\n"
+"Molimo unesite novu lozinku u nastavku."
+
+#: Tourney/themes/core-beta/templates/reset_password.html:44
+msgid "Please provide the email address associated with your account below."
+msgstr "Molimo vas da u nastavku navedete adresu e-pošte povezanu s vašim računom."
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:52
+#: Tourney/themes/core-beta/templates/scoreboard.html:7
+msgid "Scoreboard"
+msgstr "Ljestvica rezultata"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:24
+msgid "All"
+msgstr "Sve"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:36
+msgid "Place"
+msgstr "Mjesto"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:38
+#: Tourney/themes/core-beta/templates/teams/private.html:330
+#: Tourney/themes/core-beta/templates/teams/public.html:96
+msgid "Score"
+msgstr "Rezultat"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:60
+msgid "Scoreboard is empty"
+msgstr "Ljestvica rezultata je prazna"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:124
+#: Tourney/themes/core-beta/templates/components/navbar.html:129
+#: Tourney/themes/core-beta/templates/settings.html:8
+#: Tourney/themes/core-beta/templates/setup.html:50
+msgid "Settings"
+msgstr "Postavke"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:112
+#: Tourney/themes/core-beta/templates/components/navbar.html:117
+#: Tourney/themes/core-beta/templates/settings.html:21
+msgid "Profile"
+msgstr "Profil"
+
+#: Tourney/themes/core-beta/templates/settings.html:26
+msgid "Access Tokens"
+msgstr "Pristupni žetoni"
+
+#: Tourney/themes/core-beta/templates/settings.html:95
+msgid "Your profile has been updated"
+msgstr "Vaš profil je bio ažuriran"
+
+#: Tourney/themes/core-beta/templates/settings.html:103
+#: Tourney/themes/core-beta/templates/teams/private.html:83
+#: Tourney/themes/core-beta/templates/teams/private.html:198
+msgid "Error:"
+msgstr "Greška:"
+
+#: Tourney/themes/core-beta/templates/settings.html:129
+msgid "API Key Generated"
+msgstr "Stvoren API ključ"
+
+#: Tourney/themes/core-beta/templates/settings.html:137
+msgid "Please copy your API Key, it won't be shown again!"
+msgstr "Molimo kopirajte svoj API ključ, više se neće prikazati!"
+
+#: Tourney/themes/core-beta/templates/settings.html:183
+msgid "Active Tokens"
+msgstr "Aktivni žetoni"
+
+#: Tourney/themes/core-beta/templates/settings.html:195
+msgid "Delete Token"
+msgstr "Izbriši žeton"
+
+#: Tourney/themes/core-beta/templates/settings.html:204
+msgid "Are you sure you want to delete this token?"
+msgstr "Jeste li sigurni da želite izbrisati ovaj žeton?"
+
+#: Tourney/themes/core-beta/templates/settings.html:224
+msgid "Created"
+msgstr "Stvoreno"
+
+#: Tourney/themes/core-beta/templates/settings.html:226
+msgid "Description"
+msgstr "Opis"
+
+#: Tourney/themes/core-beta/templates/settings.html:227
+msgid "Delete"
+msgstr "Izbriši"
+
+#: Tourney/themes/core-beta/templates/setup.html:24
+msgid "Setup"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/setup.html:44
+msgid "General"
+msgstr "Općenito"
+
+#: Tourney/themes/core-beta/templates/setup.html:47
+msgid "Mode"
+msgstr "Način"
+
+#: Tourney/themes/core-beta/templates/setup.html:53
+msgid "Administration"
+msgstr "Administracija"
+
+#: Tourney/themes/core-beta/templates/setup.html:56
+msgid "Style"
+msgstr "Stil"
+
+#: Tourney/themes/core-beta/templates/setup.html:59
+msgid "Date &amp; Time"
+msgstr "Datum i vrijeme"
+
+#: Tourney/themes/core-beta/templates/setup.html:62
+msgid "Integrations"
+msgstr "Integracije"
+
+#: Tourney/themes/core-beta/templates/setup.html:86
+#: Tourney/themes/core-beta/templates/setup.html:138
+#: Tourney/themes/core-beta/templates/setup.html:202
+#: Tourney/themes/core-beta/templates/setup.html:238
+#: Tourney/themes/core-beta/templates/setup.html:296
+#: Tourney/themes/core-beta/templates/setup.html:345
+msgid "Next"
+msgstr "Sljedeće"
+
+#: Tourney/themes/core-beta/templates/setup.html:112
+msgid "Participants register accounts and form teams"
+msgstr "Sudionici registriraju račune i formiraju ekipe"
+
+#: Tourney/themes/core-beta/templates/setup.html:113
+msgid "If a team member solves a challenge, the entire team receives credit"
+msgstr "Ako član ekipe riješi izazov, cijeli tim dobiva zasluge"
+
+#: Tourney/themes/core-beta/templates/setup.html:115
+msgid "Easier to see which team member solved a challenge"
+msgstr "Jednostavnije je vidjeti koji je član tima riješio izazov"
+
+#: Tourney/themes/core-beta/templates/setup.html:116
+msgid "May be slightly more difficult to administer"
+msgstr "Može biti malo teže za administriranje"
+
+#: Tourney/themes/core-beta/templates/setup.html:120
+msgid "Participants only register an individual account"
+msgstr "Sudionici registriraju samo individualni račun"
+
+#: Tourney/themes/core-beta/templates/setup.html:121
+msgid "Players can share accounts to form pseudo-teams"
+msgstr "Igrači mogu dijeliti račune kako bi formirali pseudo-ekipe"
+
+#: Tourney/themes/core-beta/templates/setup.html:123
+msgid "Easier to organize"
+msgstr "Jednostavnije za organizirati"
+
+#: Tourney/themes/core-beta/templates/setup.html:124
+msgid "Difficult to attribute solutions to individual team members"
+msgstr "Teško je pripisati rješenja pojedinačnim članovima ekipe"
+
+#: Tourney/themes/core-beta/templates/setup.html:143
+msgid "Visibility Settings"
+msgstr "Postavke vidljivosti"
+
+#: Tourney/themes/core-beta/templates/setup.html:146
+msgid "Control the visibility of different sections of Tourney"
+msgstr "Kontrolirajte vidljivost različitih dijelova Tourney-a"
+
+#: Tourney/themes/core-beta/templates/setup.html:232
+msgid "Subscribe email address to the Tourney LLC Newsletter for news and updates"
+msgstr "Pretplatite se na bilten Tourney LLC-a za novosti i ažuriranja"
+
+#: Tourney/themes/core-beta/templates/setup.html:309
+#: Tourney/themes/core-beta/templates/setup.html:330
+#: Tourney/themes/core-beta/templates/teams/private.html:391
+#: Tourney/themes/core-beta/templates/teams/public.html:160
+#: Tourney/themes/core-beta/templates/users/private.html:127
+#: Tourney/themes/core-beta/templates/users/public.html:126
+msgid "Time"
+msgstr "Vrijeme"
+
+#: Tourney/themes/core-beta/templates/setup.html:334
+msgid "UTC Preview"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:36
+#: Tourney/themes/core-beta/templates/users/users.html:6
+msgid "Users"
+msgstr "Korisnici"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:43
+#: Tourney/themes/core-beta/templates/teams/teams.html:6
+msgid "Teams"
+msgstr "Ekipe"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:72
+#: Tourney/themes/core-beta/templates/components/navbar.html:77
+msgid "Admin Panel"
+msgstr "Administrativno sučelje"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:99
+#: Tourney/themes/core-beta/templates/components/navbar.html:104
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:6
+#: Tourney/themes/core-beta/templates/teams/teams.html:49
+msgid "Team"
+msgstr "Ekipa"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:136
+#: Tourney/themes/core-beta/templates/components/navbar.html:141
+msgid "Logout"
+msgstr "Odjava"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:180
+msgid "Change language"
+msgstr "Promijeni jezik"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:199
+#: Tourney/themes/core-beta/templates/components/navbar.html:204
+msgid "Toggle theme"
+msgstr "Preklopi temu"
+
+#: Tourney/themes/core-beta/templates/errors/403.html:12
+msgid "403 Forbidden"
+msgstr "403 Zabranjeno"
+
+#: Tourney/themes/core-beta/templates/errors/404.html:9
+msgid "File not found"
+msgstr "Datoteka nije pronađena"
+
+#: Tourney/themes/core-beta/templates/errors/404.html:12
+msgid "404 Not Found"
+msgstr "404 Nije pronađeno"
+
+#: Tourney/themes/core-beta/templates/errors/429.html:9
+msgid "Too many requests"
+msgstr "Previše zahtjeva"
+
+#: Tourney/themes/core-beta/templates/errors/429.html:10
+msgid "Please slow down!"
+msgstr "Molimo vas, usporite!"
+
+#: Tourney/themes/core-beta/templates/errors/429.html:13
+msgid "429 Too Many Requests"
+msgstr "429 Previše zahtjeva"
+
+#: Tourney/themes/core-beta/templates/errors/502.html:12
+msgid "502 Bad Gateway"
+msgstr "502 Loš ulaz"
+
+#: Tourney/themes/core-beta/templates/macros/forms.html:13
+#: Tourney/themes/core-beta/templates/macros/forms.html:36
+#: Tourney/themes/core-beta/templates/macros/forms.html:65
+msgid "(Optional)"
+msgstr "(neobavezno)"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:6
+#: Tourney/themes/core-beta/templates/teams/join_team.html:6
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:36
+msgid "Join Team"
+msgstr "Pridruži se ekipi"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:15
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:12
+msgid "Welcome to"
+msgstr "Dobrodošli na"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:19
+msgid "Click the button below to join the team!"
+msgstr "Kliknite na gumb ispod da biste se pridružili ekipi!"
+
+#: Tourney/themes/core-beta/templates/teams/new_team.html:6
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:39
+msgid "Create Team"
+msgstr "Stvori ekipu"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:8
+msgid "Edit Team"
+msgstr "Uredi ekipu"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:76
+msgid "Your team's profile has been updated"
+msgstr "Profil vaše ekipe je bio ažuriran"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:104
+msgid "Choose Captain"
+msgstr "Izaberi kapetana"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:127
+msgid "Your captain rights have been transferred"
+msgstr "Vaša kapetanska prava su bila prenesena"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:152
+msgid "Invite Users"
+msgstr "Pozovi korisnike"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:171
+msgid "Share this link with your team members for them to join your team"
+msgstr "Podijelite ovu poveznicu s članovima kako bi se i oni mogli pridružiti ekipi"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:174
+msgid "Invite links can be re-used and expire after 1 day"
+msgstr "Pozivne poveznice se mogu ponovno koristiti i istječu nakon 1 dana"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:188
+msgid "Disband Team"
+msgstr "Raspusti ekipu"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:193
+msgid "Are you sure you want to disband your team?"
+msgstr "Jeste li sigurni da želite raspustiti ekipu?"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:206
+msgid "No"
+msgstr "Ne"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:207
+msgid "Yes"
+msgstr "Da"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:218
+#: Tourney/themes/core-beta/templates/teams/public.html:10
+#: Tourney/themes/core-beta/templates/users/private.html:21
+#: Tourney/themes/core-beta/templates/users/public.html:21
+#: Tourney/themes/core-beta/templates/users/users.html:70
+msgid "Official"
+msgstr "Službeno"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:260
+msgid "place"
+msgstr "mjesto"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:268
+msgid "points"
+msgstr "bodovi"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:325
+#: Tourney/themes/core-beta/templates/teams/public.html:91
+msgid "Members"
+msgstr "Članovi"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:345
+#: Tourney/themes/core-beta/templates/teams/public.html:110
+msgid "Captain"
+msgstr "Kapetan"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:361
+#: Tourney/themes/core-beta/templates/teams/public.html:125
+#: Tourney/themes/core-beta/templates/users/private.html:98
+#: Tourney/themes/core-beta/templates/users/public.html:98
+msgid "Awards"
+msgstr "Nagrade"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:384
+#: Tourney/themes/core-beta/templates/teams/public.html:153
+#: Tourney/themes/core-beta/templates/users/private.html:120
+msgid "Solves"
+msgstr "Rješenja"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:389
+#: Tourney/themes/core-beta/templates/teams/public.html:158
+#: Tourney/themes/core-beta/templates/users/private.html:125
+#: Tourney/themes/core-beta/templates/users/public.html:124
+msgid "Category"
+msgstr "Kategorija"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:390
+#: Tourney/themes/core-beta/templates/teams/public.html:159
+#: Tourney/themes/core-beta/templates/users/private.html:126
+#: Tourney/themes/core-beta/templates/users/public.html:125
+msgid "Value"
+msgstr "Vrijednost"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:481
+#: Tourney/themes/core-beta/templates/teams/public.html:248
+#: Tourney/themes/core-beta/templates/users/private.html:213
+#: Tourney/themes/core-beta/templates/users/public.html:214
+msgid "No solves yet"
+msgstr "Još nema rješenja"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:14
+msgid "In order to participate you must either join or create a team."
+msgstr "Za sudjelovanje se je potrebno pridružiti postojećoj ili stvori novu ekipu."
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:22
+msgid "Play with Official Team"
+msgstr "Igraj sa službenom ekipom"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:27
+msgid "Join Unofficial Team"
+msgstr "Pridruži se neslužbenoj ekipi"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:30
+msgid "Create Unofficial Team"
+msgstr "Stvori neslužbenu ekipu"
+
+#: Tourney/themes/core-beta/templates/teams/teams.html:128
+#: Tourney/themes/core-beta/templates/users/users.html:118
+msgid "Page"
+msgstr "Stranica"
+
+#: Tourney/themes/core-beta/templates/users/users.html:14
+#, python-format
+msgid "Searching for users with <strong>%(field)s</strong> matching <strong>%(q)s</strong>"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/users/users.html:17
+#, python-format
+msgid "Page %(page)s of %(total)s results"
+msgstr "Stranica %(page)s od %(total)s rezultata"
+
+#: Tourney/themes/core-beta/templates/users/users.html:46
+msgid "User"
+msgstr ""
+
+#: Tourney/utils/modes/__init__.py:35
+msgid "user"
+msgid_plural "users"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: Tourney/utils/modes/__init__.py:37
+msgid "team"
+msgid_plural "teams"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+

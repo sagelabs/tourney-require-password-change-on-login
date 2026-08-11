@@ -1,0 +1,863 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Tourney\n"
+"Report-Msgid-Bugs-To: EMAIL@ADDRESS\n"
+"POT-Creation-Date: 2025-04-02 07:37-0400\n"
+"PO-Revision-Date: 2025-09-24 00:30\n"
+"Last-Translator: \n"
+"Language-Team: Romanian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: Babel 2.17.0\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100>0 && n%100<20)) ? 1 : 2);\n"
+"X-Crowdin-Project: Tourney\n"
+"X-Crowdin-Project-ID: 659064\n"
+"X-Crowdin-Language: ro\n"
+"X-Crowdin-File: /master/messages.pot\n"
+"X-Crowdin-File-ID: 188\n"
+"Language: ro_RO\n"
+
+#: Tourney/challenges.py:38
+msgid "Challenge Visibility is set to Admins Only"
+msgstr ""
+
+#: Tourney/challenges.py:41 Tourney/utils/decorators/__init__.py:39
+#, python-format
+msgid "%(ctf_name)s has not started yet"
+msgstr ""
+
+#: Tourney/challenges.py:44
+#, python-format
+msgid "%(ctf_name)s is paused"
+msgstr ""
+
+#: Tourney/challenges.py:47 Tourney/utils/decorators/__init__.py:31
+#, python-format
+msgid "%(ctf_name)s has ended"
+msgstr ""
+
+#: Tourney/forms/auth.py:21 Tourney/forms/self.py:21
+#: Tourney/themes/core-beta/templates/teams/private.html:329
+#: Tourney/themes/core-beta/templates/teams/public.html:95
+msgid "User Name"
+msgstr "Nume de utilizator"
+
+#: Tourney/forms/auth.py:23 Tourney/forms/auth.py:60 Tourney/forms/self.py:22
+#: Tourney/forms/teams.py:230
+msgid "Email"
+msgstr "Email"
+
+#: Tourney/forms/auth.py:24 Tourney/forms/auth.py:50 Tourney/forms/auth.py:67
+#: Tourney/forms/self.py:24 Tourney/forms/teams.py:231
+msgid "Password"
+msgstr "Parola"
+
+#: Tourney/forms/auth.py:25 Tourney/forms/auth.py:51 Tourney/forms/auth.py:62
+#: Tourney/forms/auth.py:69 Tourney/forms/self.py:29 Tourney/forms/teams.py:154
+#: Tourney/forms/teams.py:237 Tourney/themes/core-beta/templates/challenge.html:147
+msgid "Submit"
+msgstr "Trimiteți"
+
+#: Tourney/forms/auth.py:46
+msgid "User Name or Email"
+msgstr "Nume de utilizator sau e-mail"
+
+#: Tourney/forms/auth.py:55
+msgid "Resend Confirmation Email"
+msgstr "Retrimite e-mailul de confirmare"
+
+#: Tourney/forms/self.py:23 Tourney/forms/users.py:181
+msgid "Language"
+msgstr "Limba"
+
+#: Tourney/forms/self.py:25
+msgid "Current Password"
+msgstr "Parola curentă"
+
+#: Tourney/forms/self.py:26 Tourney/forms/teams.py:140 Tourney/forms/teams.py:218
+#: Tourney/forms/teams.py:233 Tourney/forms/users.py:164
+#: Tourney/themes/core-beta/templates/teams/teams.html:51
+#: Tourney/themes/core-beta/templates/users/users.html:48
+msgid "Affiliation"
+msgstr "Afiliere"
+
+#: Tourney/forms/self.py:27 Tourney/forms/teams.py:146 Tourney/forms/teams.py:219
+#: Tourney/forms/teams.py:232 Tourney/forms/users.py:165
+#: Tourney/themes/core-beta/templates/teams/teams.html:50
+#: Tourney/themes/core-beta/templates/users/users.html:47
+msgid "Website"
+msgstr "Site web"
+
+#: Tourney/forms/self.py:28 Tourney/forms/teams.py:150 Tourney/forms/teams.py:234
+#: Tourney/themes/core-beta/templates/teams/teams.html:52
+#: Tourney/themes/core-beta/templates/users/users.html:49
+msgid "Country"
+msgstr "Țară"
+
+#: Tourney/forms/self.py:59 Tourney/themes/core-beta/templates/settings.html:225
+msgid "Expiration"
+msgstr "Expirare"
+
+#: Tourney/forms/self.py:61
+msgid "Generate"
+msgstr "Generează"
+
+#: Tourney/forms/setup.py:29
+msgid "Event Name"
+msgstr "Numele evenimentului"
+
+#: Tourney/forms/setup.py:29
+msgid "The name of your CTF event/workshop"
+msgstr "Numele evenimentului/atelierului dvs. CTF"
+
+#: Tourney/forms/setup.py:32
+msgid "Event Description"
+msgstr "Descrierea evenimentului"
+
+#: Tourney/forms/setup.py:32
+msgid "Description for the CTF"
+msgstr "Descriere pentru CTF"
+
+#: Tourney/forms/setup.py:35 Tourney/forms/setup.py:36
+msgid "User Mode"
+msgstr "Modul utilizator"
+
+#: Tourney/forms/setup.py:36
+msgid "Team Mode"
+msgstr "Mod echipă"
+
+#: Tourney/forms/setup.py:39
+msgid "Controls whether users join together in teams to play (Team Mode) or play as themselves (User Mode)"
+msgstr "Controlează dacă utilizatorii se alătură în echipe pentru a juca (Mod echipă) sau joacă individual (Mod utilizator)"
+
+#: Tourney/forms/setup.py:45
+msgid "Admin Username"
+msgstr "Nume de utilizator admin"
+
+#: Tourney/forms/setup.py:46
+msgid "Your username for the administration account"
+msgstr "Numele dvs. de utilizator pentru contul de administrare"
+
+#: Tourney/forms/setup.py:50
+msgid "Admin Email"
+msgstr "E-mail admin"
+
+#: Tourney/forms/setup.py:51
+msgid "Your email address for the administration account"
+msgstr "Adresa ta de e-mail pentru contul de administrare"
+
+#: Tourney/forms/setup.py:55
+msgid "Admin Password"
+msgstr "Parola de administrator"
+
+#: Tourney/forms/setup.py:56
+msgid "Your password for the administration account"
+msgstr "Parola dvs. pentru contul de administrare"
+
+#: Tourney/forms/setup.py:61
+msgid "Logo"
+msgstr "Sigla"
+
+#: Tourney/forms/setup.py:63
+msgid "Logo to use for the website instead of a CTF name. Used as the home page button. Optional."
+msgstr "Sigla de utilizat pentru site-ul web în locul unui nume CTF. Folosit ca buton către pagina de pornire. Opțional."
+
+#: Tourney/forms/setup.py:67
+msgid "Banner"
+msgstr "Banner"
+
+#: Tourney/forms/setup.py:67
+msgid "Banner to use for the homepage. Optional."
+msgstr "Banner de utilizat pentru pagina de pornire. Opțional."
+
+#: Tourney/forms/setup.py:70
+msgid "Small Icon"
+msgstr "Pictogramă mică"
+
+#: Tourney/forms/setup.py:72
+msgid "favicon used in user's browsers. Only PNGs accepted. Must be 32x32px. Optional."
+msgstr "favicon utilizat în browserele utilizatorului. Sunt acceptate numai PNG-uri. Trebuie să aibă 32x32px. Opțional."
+
+#: Tourney/forms/setup.py:76
+msgid "Theme"
+msgstr "Temă"
+
+#: Tourney/forms/setup.py:77
+msgid "Tourney Theme to use. Can be changed later."
+msgstr "Tema CD de utilizat. Poate fi schimbată mai târziu."
+
+#: Tourney/forms/setup.py:84
+msgid "Theme Color"
+msgstr "Culoarea temei"
+
+#: Tourney/forms/setup.py:86
+msgid "Color used by theme to control aesthetics. Requires theme support. Optional."
+msgstr "Culoarea folosită de temă pentru a controla estetica. Necesită suport pentru tema. Opțional."
+
+#: Tourney/forms/setup.py:91
+msgid "Verify Emails"
+msgstr "Verificați e-mailurile"
+
+#: Tourney/forms/setup.py:143
+msgid "Start Time"
+msgstr "Ora de începere"
+
+#: Tourney/forms/setup.py:144
+msgid "Time when your CTF is scheduled to start. Optional."
+msgstr "Ora la care CTF-ul dvs. este programat să pornească. Opțional."
+
+#: Tourney/forms/setup.py:147
+msgid "End Time"
+msgstr "Ora de încheiere"
+
+#: Tourney/forms/setup.py:148
+msgid "Time when your CTF is scheduled to end. Optional."
+msgstr "Ora la care CTF-ul dvs. este programat să se încheie. Opțional."
+
+#: Tourney/forms/setup.py:150
+msgid "Finish"
+msgstr "Terminați"
+
+#: Tourney/forms/teams.py:102 Tourney/forms/teams.py:109 Tourney/forms/teams.py:127
+#: Tourney/forms/teams.py:229
+msgid "Team Name"
+msgstr "Numele echipei"
+
+#: Tourney/forms/teams.py:103 Tourney/forms/teams.py:110
+msgid "Team Password"
+msgstr "Parola echipei"
+
+#: Tourney/forms/teams.py:104 Tourney/forms/teams.py:289
+msgid "Join"
+msgstr "Alăturați-vă"
+
+#: Tourney/forms/teams.py:111
+msgid "Create"
+msgstr "Creează"
+
+#: Tourney/forms/teams.py:128
+msgid "Your team's public name shown to other competitors"
+msgstr "Numele public al echipei dvs. este afișat altor concurenți"
+
+#: Tourney/forms/teams.py:131
+msgid "New Team Password"
+msgstr "Noua parolă pentru echipă"
+
+#: Tourney/forms/teams.py:131
+msgid "Set a new team join password"
+msgstr "Setați o nouă parolă pentru alăturarea echipei"
+
+#: Tourney/forms/teams.py:134
+msgid "Confirm Current Team Password"
+msgstr "Confirmați parola echipei curente"
+
+#: Tourney/forms/teams.py:136
+msgid "Provide your current team password (or your password) to update your team's password"
+msgstr "Oferiți parola actuală a echipei (sau parola) pentru a vă actualiza parola echipei"
+
+#: Tourney/forms/teams.py:142
+msgid "Your team's affiliation publicly shown to other competitors"
+msgstr "Afilierea echipei dvs. a fost afișată public altor concurenți"
+
+#: Tourney/forms/teams.py:147
+msgid "Your team's website publicly shown to other competitors"
+msgstr "Site-ul web al echipei dvs. este afișat public altor concurenți"
+
+#: Tourney/forms/teams.py:152
+msgid "Your team's country publicly shown to other competitors"
+msgstr "Țara echipei tale a fost afișată public altor concurenți"
+
+#: Tourney/forms/teams.py:192
+msgid "Team Captain"
+msgstr "Căpitanul echipei"
+
+#: Tourney/forms/teams.py:215 Tourney/forms/users.py:161
+msgid "Search Field"
+msgstr "Câmpul de căutare"
+
+#: Tourney/forms/teams.py:217 Tourney/forms/users.py:163
+#: Tourney/themes/core-beta/templates/challenge.html:206
+msgid "Name"
+msgstr "Nume"
+
+#: Tourney/forms/teams.py:224 Tourney/forms/users.py:171
+msgid "Parameter"
+msgstr "Parametru"
+
+#: Tourney/forms/teams.py:225 Tourney/forms/users.py:175
+msgid "Search"
+msgstr "Căutare"
+
+#: Tourney/forms/teams.py:235
+msgid "Hidden"
+msgstr "Ascuns"
+
+#: Tourney/forms/teams.py:236
+msgid "Banned"
+msgstr "Interzis"
+
+#: Tourney/forms/teams.py:285
+msgid "Invite Link"
+msgstr "Link de invitare"
+
+#: Tourney/forms/users.py:133
+msgid "Bracket"
+msgstr ""
+
+#: Tourney/forms/users.py:134
+msgid "Competition bracket for your user"
+msgstr ""
+
+#: Tourney/forms/users.py:172
+msgid "Search for matching users"
+msgstr "Caută utilizatori care se potrivesc"
+
+#: Tourney/themes/core-beta/templates/base.html:53
+msgid "Powered by Tourney"
+msgstr "Funcționează cu Tourney"
+
+#: Tourney/themes/core-beta/templates/challenge.html:11
+#: Tourney/themes/core-beta/templates/teams/private.html:388
+#: Tourney/themes/core-beta/templates/teams/public.html:157
+#: Tourney/themes/core-beta/templates/users/private.html:124
+#: Tourney/themes/core-beta/templates/users/public.html:123
+msgid "Challenge"
+msgstr "Provocare"
+
+#: Tourney/themes/core-beta/templates/challenge.html:19
+#, python-format
+msgid "%(num)d Solve"
+msgid_plural "%(num)d Solves"
+msgstr[0] "%(num)d rezolvare"
+msgstr[1] "%(num)d rezolvări"
+msgstr[2] "%(num)d de rezolvări"
+
+#: Tourney/themes/core-beta/templates/challenge.html:77
+msgid "View Hint"
+msgstr "Vezi indiciu"
+
+#: Tourney/themes/core-beta/templates/challenge.html:120
+msgid "attempt"
+msgid_plural "attempts"
+msgstr[0] ""
+msgstr[1] ""
+msgstr[2] ""
+
+#: Tourney/themes/core-beta/templates/challenge.html:135
+msgid "Flag"
+msgstr "Steag"
+
+#: Tourney/themes/core-beta/templates/challenge.html:169
+msgid "Next Challenge"
+msgstr "Provocarea următoare"
+
+#: Tourney/themes/core-beta/templates/challenge.html:175
+msgid "Share"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/challenge.html:207
+#: Tourney/themes/core-beta/templates/setup.html:305
+#: Tourney/themes/core-beta/templates/setup.html:326
+msgid "Date"
+msgstr "Data"
+
+#: Tourney/themes/core-beta/templates/challenges.html:7
+#: Tourney/themes/core-beta/templates/components/navbar.html:59
+msgid "Challenges"
+msgstr "Provocări"
+
+#: Tourney/themes/core-beta/templates/confirm.html:7
+msgid "Confirm"
+msgstr "Confirmă"
+
+#: Tourney/themes/core-beta/templates/confirm.html:18
+msgid "We've sent a confirmation email to your email address."
+msgstr "Ți-am trimis un email de confirmare la adresa ta de email."
+
+#: Tourney/themes/core-beta/templates/confirm.html:24
+msgid "Please click the link in that email to confirm your account."
+msgstr "Te rugăm să dai clic pe linkul din acel email pentru a-ți confirma contul."
+
+#: Tourney/themes/core-beta/templates/confirm.html:30
+msgid "If the email doesn’t arrive, check your spam folder or contact an administrator to manually verify your account."
+msgstr "Dacă emailul nu ajunge, verifică folderul de spam sau contactează un administrator pentru a-ți verifica manual contul."
+
+#: Tourney/themes/core-beta/templates/confirm.html:43
+msgid "Change Email Address"
+msgstr "Schimbă adresa de email"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:164
+#: Tourney/themes/core-beta/templates/components/navbar.html:169
+#: Tourney/themes/core-beta/templates/login.html:7
+msgid "Login"
+msgstr "Autentificare"
+
+#: Tourney/themes/core-beta/templates/login.html:40
+msgid "Forgot your password?"
+msgstr "Ți-ai uitat parola?"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:85
+#: Tourney/themes/core-beta/templates/components/navbar.html:91
+#: Tourney/themes/core-beta/templates/notifications.html:7
+msgid "Notifications"
+msgstr "Notificări"
+
+#: Tourney/themes/core-beta/templates/notifications.html:14
+msgid "There are no notifications yet"
+msgstr "Nu există notificări încă"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:151
+#: Tourney/themes/core-beta/templates/components/navbar.html:156
+#: Tourney/themes/core-beta/templates/register.html:7
+msgid "Register"
+msgstr "Înregistrare"
+
+#: Tourney/themes/core-beta/templates/register.html:35
+msgid "Your username on the site"
+msgstr "Numele tău de utilizator pe site"
+
+#: Tourney/themes/core-beta/templates/register.html:43
+msgid "Never shown to the public"
+msgstr "Nu este niciodată afișat publicului"
+
+#: Tourney/themes/core-beta/templates/register.html:51
+msgid "Password used to log into your account"
+msgstr "Parola folosită pentru autentificarea în contul tău"
+
+#: Tourney/themes/core-beta/templates/register.html:69
+#, python-format
+msgid "By registering, you agree to the <a href=\"%(privacy_link)s\" target=\"_blank\">privacy policy</a> and <a href=\"%(tos_link)s\" target=\"_blank\">terms of service</a>"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/reset_password.html:7
+msgid "Reset Password"
+msgstr "Resetează parola"
+
+#: Tourney/themes/core-beta/templates/reset_password.html:21
+msgid "You can now reset the password for your account and log in. Please enter in a new password below."
+msgstr "Acum poți reseta parola contului tău și te poți autentifica. Introdu mai jos o nouă parolă."
+
+#: Tourney/themes/core-beta/templates/reset_password.html:44
+msgid "Please provide the email address associated with your account below."
+msgstr "Te rugăm să introduci mai jos adresa de email asociată contului tău."
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:52
+#: Tourney/themes/core-beta/templates/scoreboard.html:7
+msgid "Scoreboard"
+msgstr "Clasament"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:24
+msgid "All"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:36
+msgid "Place"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:38
+#: Tourney/themes/core-beta/templates/teams/private.html:330
+#: Tourney/themes/core-beta/templates/teams/public.html:96
+msgid "Score"
+msgstr "Scor"
+
+#: Tourney/themes/core-beta/templates/scoreboard.html:60
+msgid "Scoreboard is empty"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:124
+#: Tourney/themes/core-beta/templates/components/navbar.html:129
+#: Tourney/themes/core-beta/templates/settings.html:8
+#: Tourney/themes/core-beta/templates/setup.html:50
+msgid "Settings"
+msgstr "Setări"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:112
+#: Tourney/themes/core-beta/templates/components/navbar.html:117
+#: Tourney/themes/core-beta/templates/settings.html:21
+msgid "Profile"
+msgstr "Profil"
+
+#: Tourney/themes/core-beta/templates/settings.html:26
+msgid "Access Tokens"
+msgstr "Token-uri de acces"
+
+#: Tourney/themes/core-beta/templates/settings.html:95
+msgid "Your profile has been updated"
+msgstr "Profilul tău a fost actualizat"
+
+#: Tourney/themes/core-beta/templates/settings.html:103
+#: Tourney/themes/core-beta/templates/teams/private.html:83
+#: Tourney/themes/core-beta/templates/teams/private.html:198
+msgid "Error:"
+msgstr "Eroare:"
+
+#: Tourney/themes/core-beta/templates/settings.html:129
+msgid "API Key Generated"
+msgstr "Cheia API a fost generată"
+
+#: Tourney/themes/core-beta/templates/settings.html:137
+msgid "Please copy your API Key, it won't be shown again!"
+msgstr "Te rugăm să copiezi cheia API, nu va mai fi afișată din nou!"
+
+#: Tourney/themes/core-beta/templates/settings.html:183
+msgid "Active Tokens"
+msgstr "Token-uri active"
+
+#: Tourney/themes/core-beta/templates/settings.html:195
+msgid "Delete Token"
+msgstr "Șterge token-ul"
+
+#: Tourney/themes/core-beta/templates/settings.html:204
+msgid "Are you sure you want to delete this token?"
+msgstr "Ești sigur că vrei să ștergi acest token?"
+
+#: Tourney/themes/core-beta/templates/settings.html:224
+msgid "Created"
+msgstr "Creat"
+
+#: Tourney/themes/core-beta/templates/settings.html:226
+msgid "Description"
+msgstr "Descriere"
+
+#: Tourney/themes/core-beta/templates/settings.html:227
+msgid "Delete"
+msgstr "Șterge"
+
+#: Tourney/themes/core-beta/templates/setup.html:24
+msgid "Setup"
+msgstr "Configurare"
+
+#: Tourney/themes/core-beta/templates/setup.html:44
+msgid "General"
+msgstr "General"
+
+#: Tourney/themes/core-beta/templates/setup.html:47
+msgid "Mode"
+msgstr "Mod"
+
+#: Tourney/themes/core-beta/templates/setup.html:53
+msgid "Administration"
+msgstr "Administrare"
+
+#: Tourney/themes/core-beta/templates/setup.html:56
+msgid "Style"
+msgstr "Stil"
+
+#: Tourney/themes/core-beta/templates/setup.html:59
+msgid "Date &amp; Time"
+msgstr "Dată &amp; Oră"
+
+#: Tourney/themes/core-beta/templates/setup.html:62
+msgid "Integrations"
+msgstr "Integrări"
+
+#: Tourney/themes/core-beta/templates/setup.html:86
+#: Tourney/themes/core-beta/templates/setup.html:138
+#: Tourney/themes/core-beta/templates/setup.html:202
+#: Tourney/themes/core-beta/templates/setup.html:238
+#: Tourney/themes/core-beta/templates/setup.html:296
+#: Tourney/themes/core-beta/templates/setup.html:345
+msgid "Next"
+msgstr "Următor"
+
+#: Tourney/themes/core-beta/templates/setup.html:112
+msgid "Participants register accounts and form teams"
+msgstr "Participanții își înregistrează conturile și formează echipe"
+
+#: Tourney/themes/core-beta/templates/setup.html:113
+msgid "If a team member solves a challenge, the entire team receives credit"
+msgstr "Dacă un membru al echipei rezolvă o provocare, întreaga echipă primește credit"
+
+#: Tourney/themes/core-beta/templates/setup.html:115
+msgid "Easier to see which team member solved a challenge"
+msgstr "Este mai ușor de văzut care membru al echipei a rezolvat o provocare"
+
+#: Tourney/themes/core-beta/templates/setup.html:116
+msgid "May be slightly more difficult to administer"
+msgstr "Poate fi puțin mai dificil de administrat"
+
+#: Tourney/themes/core-beta/templates/setup.html:120
+msgid "Participants only register an individual account"
+msgstr "Participanții își înregistrează doar un cont individual"
+
+#: Tourney/themes/core-beta/templates/setup.html:121
+msgid "Players can share accounts to form pseudo-teams"
+msgstr "Jucătorii pot împărți conturi pentru a forma pseudo-echipe"
+
+#: Tourney/themes/core-beta/templates/setup.html:123
+msgid "Easier to organize"
+msgstr "Mai ușor de organizat"
+
+#: Tourney/themes/core-beta/templates/setup.html:124
+msgid "Difficult to attribute solutions to individual team members"
+msgstr "Dificil de atribuit soluțiile fiecărui membru al echipei"
+
+#: Tourney/themes/core-beta/templates/setup.html:143
+msgid "Visibility Settings"
+msgstr "Setări de vizibilitate"
+
+#: Tourney/themes/core-beta/templates/setup.html:146
+msgid "Control the visibility of different sections of Tourney"
+msgstr "Controlează vizibilitatea diferitelor secțiuni ale Tourney"
+
+#: Tourney/themes/core-beta/templates/setup.html:232
+msgid "Subscribe email address to the Tourney LLC Newsletter for news and updates"
+msgstr "Abonează adresa de email la newsletter-ul Tourney LLC pentru știri și actualizări"
+
+#: Tourney/themes/core-beta/templates/setup.html:309
+#: Tourney/themes/core-beta/templates/setup.html:330
+#: Tourney/themes/core-beta/templates/teams/private.html:391
+#: Tourney/themes/core-beta/templates/teams/public.html:160
+#: Tourney/themes/core-beta/templates/users/private.html:127
+#: Tourney/themes/core-beta/templates/users/public.html:126
+msgid "Time"
+msgstr "Timp"
+
+#: Tourney/themes/core-beta/templates/setup.html:334
+msgid "UTC Preview"
+msgstr "Previzualizare UTC"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:36
+#: Tourney/themes/core-beta/templates/users/users.html:6
+msgid "Users"
+msgstr "Utilizatori"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:43
+#: Tourney/themes/core-beta/templates/teams/teams.html:6
+msgid "Teams"
+msgstr "Echipe"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:72
+#: Tourney/themes/core-beta/templates/components/navbar.html:77
+msgid "Admin Panel"
+msgstr "Panou de administrare"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:99
+#: Tourney/themes/core-beta/templates/components/navbar.html:104
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:6
+#: Tourney/themes/core-beta/templates/teams/teams.html:49
+msgid "Team"
+msgstr "Echipă"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:136
+#: Tourney/themes/core-beta/templates/components/navbar.html:141
+msgid "Logout"
+msgstr "Deconectare"
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:180
+msgid "Change language"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/components/navbar.html:199
+#: Tourney/themes/core-beta/templates/components/navbar.html:204
+msgid "Toggle theme"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/403.html:12
+msgid "403 Forbidden"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/404.html:9
+msgid "File not found"
+msgstr "Fișier inexistent"
+
+#: Tourney/themes/core-beta/templates/errors/404.html:12
+msgid "404 Not Found"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/429.html:9
+msgid "Too many requests"
+msgstr "Prea multe cereri"
+
+#: Tourney/themes/core-beta/templates/errors/429.html:10
+msgid "Please slow down!"
+msgstr "Te rugăm să încetinești!"
+
+#: Tourney/themes/core-beta/templates/errors/429.html:13
+msgid "429 Too Many Requests"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/errors/502.html:12
+msgid "502 Bad Gateway"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/macros/forms.html:13
+#: Tourney/themes/core-beta/templates/macros/forms.html:36
+#: Tourney/themes/core-beta/templates/macros/forms.html:65
+msgid "(Optional)"
+msgstr "(Opțional)"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:6
+#: Tourney/themes/core-beta/templates/teams/join_team.html:6
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:36
+msgid "Join Team"
+msgstr "Alătură-te echipei"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:15
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:12
+msgid "Welcome to"
+msgstr "Bine ai venit la"
+
+#: Tourney/themes/core-beta/templates/teams/invite.html:19
+msgid "Click the button below to join the team!"
+msgstr "Apasă butonul de mai jos pentru a te alătura echipei!"
+
+#: Tourney/themes/core-beta/templates/teams/new_team.html:6
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:39
+msgid "Create Team"
+msgstr "Creează echipă"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:8
+msgid "Edit Team"
+msgstr "Editează echipa"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:76
+msgid "Your team's profile has been updated"
+msgstr "Profilul echipei tale a fost actualizat"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:104
+msgid "Choose Captain"
+msgstr "Alege căpitan"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:127
+msgid "Your captain rights have been transferred"
+msgstr "Drepturile tale de căpitan au fost transferate"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:152
+msgid "Invite Users"
+msgstr "Invită utilizatori"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:171
+msgid "Share this link with your team members for them to join your team"
+msgstr "Distribuie acest link membrilor echipei tale pentru a se alătura"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:174
+msgid "Invite links can be re-used and expire after 1 day"
+msgstr "Linkurile de invitație pot fi reutilizate și expiră după 1 zi"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:188
+msgid "Disband Team"
+msgstr "Dizolvă echipa"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:193
+msgid "Are you sure you want to disband your team?"
+msgstr "Ești sigur că vrei să dizolvi echipa?"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:206
+msgid "No"
+msgstr "Nu"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:207
+msgid "Yes"
+msgstr "Da"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:218
+#: Tourney/themes/core-beta/templates/teams/public.html:10
+#: Tourney/themes/core-beta/templates/users/private.html:21
+#: Tourney/themes/core-beta/templates/users/public.html:21
+#: Tourney/themes/core-beta/templates/users/users.html:70
+msgid "Official"
+msgstr "Oficial"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:260
+msgid "place"
+msgstr "loc"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:268
+msgid "points"
+msgstr "puncte"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:325
+#: Tourney/themes/core-beta/templates/teams/public.html:91
+msgid "Members"
+msgstr "Membri"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:345
+#: Tourney/themes/core-beta/templates/teams/public.html:110
+msgid "Captain"
+msgstr "Căpitan"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:361
+#: Tourney/themes/core-beta/templates/teams/public.html:125
+#: Tourney/themes/core-beta/templates/users/private.html:98
+#: Tourney/themes/core-beta/templates/users/public.html:98
+msgid "Awards"
+msgstr "Premii"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:384
+#: Tourney/themes/core-beta/templates/teams/public.html:153
+#: Tourney/themes/core-beta/templates/users/private.html:120
+msgid "Solves"
+msgstr "Rezolvări"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:389
+#: Tourney/themes/core-beta/templates/teams/public.html:158
+#: Tourney/themes/core-beta/templates/users/private.html:125
+#: Tourney/themes/core-beta/templates/users/public.html:124
+msgid "Category"
+msgstr "Categorie"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:390
+#: Tourney/themes/core-beta/templates/teams/public.html:159
+#: Tourney/themes/core-beta/templates/users/private.html:126
+#: Tourney/themes/core-beta/templates/users/public.html:125
+msgid "Value"
+msgstr "Valoare"
+
+#: Tourney/themes/core-beta/templates/teams/private.html:481
+#: Tourney/themes/core-beta/templates/teams/public.html:248
+#: Tourney/themes/core-beta/templates/users/private.html:213
+#: Tourney/themes/core-beta/templates/users/public.html:214
+msgid "No solves yet"
+msgstr "Nicio rezolvare încă"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:14
+msgid "In order to participate you must either join or create a team."
+msgstr "Pentru a participa, trebuie să te alături sau să creezi o echipă."
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:22
+msgid "Play with Official Team"
+msgstr "Joacă cu echipa oficială"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:27
+msgid "Join Unofficial Team"
+msgstr "Alătură-te unei echipe neoficiale"
+
+#: Tourney/themes/core-beta/templates/teams/team_enrollment.html:30
+msgid "Create Unofficial Team"
+msgstr "Creează o echipă neoficială"
+
+#: Tourney/themes/core-beta/templates/teams/teams.html:128
+#: Tourney/themes/core-beta/templates/users/users.html:118
+msgid "Page"
+msgstr "Pagină"
+
+#: Tourney/themes/core-beta/templates/users/users.html:14
+#, python-format
+msgid "Searching for users with <strong>%(field)s</strong> matching <strong>%(q)s</strong>"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/users/users.html:17
+#, python-format
+msgid "Page %(page)s of %(total)s results"
+msgstr ""
+
+#: Tourney/themes/core-beta/templates/users/users.html:46
+msgid "User"
+msgstr "Utilizator"
+
+#: Tourney/utils/modes/__init__.py:35
+msgid "user"
+msgid_plural "users"
+msgstr[0] "utilizator"
+msgstr[1] "utilizatori"
+msgstr[2] "de utilizatori"
+
+#: Tourney/utils/modes/__init__.py:37
+msgid "team"
+msgid_plural "teams"
+msgstr[0] "echipă"
+msgstr[1] "echipe"
+msgstr[2] "de echipe"
+
